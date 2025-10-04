@@ -1,11 +1,11 @@
-# 🧩 Project 1: Exploratory Data Analysis on Heart Disease Prediction
+#  Project 1: Exploratory Data Analysis on Heart Disease Prediction
 
-### 🔍 Overview
+###  Overview
 This project focuses on performing an **Exploratory Data Analysis (EDA)** on a Heart Disease dataset to understand its structure, identify data quality issues, and uncover patterns and relationships between variables. The primary goal of this analysis is to prepare the data for subsequent machine learning model building by ensuring its quality and extracting meaningful insights.
 
 ---
 
-## 📊 Project Objectives
+##  Project Objectives
 - Perform data cleaning and preprocessing
 - Remove duplicates  
 - Handle missing values and outliers  
@@ -45,7 +45,7 @@ The Exploratory Data Analysis was performed methodically, covering essential dat
 ---
 
   
-## 🧰 Tools & Libraries Used
+##  Tools & Libraries Used
 | Category | Libraries |
 |-----------|------------|
 | Data Handling | `pandas`, `numpy` |
