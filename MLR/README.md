@@ -50,7 +50,7 @@ The dataset `Student_Performance.csv` contains the following columns:
    - Define features `X` and target `y`
 
 3. **Train-Test Split**  
-   Split data (80% train, 20% test).
+   Split data (75% train, 25% test).
 
 4. **Model Training**  
    Fit a `LinearRegression()` model from `sklearn`.
@@ -76,8 +76,8 @@ The dataset `Student_Performance.csv` contains the following columns:
 ## 📊 Model Performance (Example Results)
 | Metric | Train | Test |
 |--------|--------|------|
-| R² Score | 0.92 | 0.88 |
-| RMSE | 2.31 | 2.74 |
+| R² Score | 0.98 | 0.98 |
+| RMSE | 2.03 | 2.07 |
 
 *(Values vary depending on dataset)*
 
