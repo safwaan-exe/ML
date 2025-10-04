@@ -1,13 +1,13 @@
-# 🧠 Student Performance Prediction using Multiple Linear Regression
+#  Student Performance Prediction using Multiple Linear Regression
 
-## 📋 Project Overview
+##  Project Overview
 This project applies a **Multiple Linear Regression** model to predict a student’s **Performance Index** based on several academic and lifestyle factors such as study hours, previous scores, sleep hours, extracurricular participation, and practice tests attempted.
 
 The model is built, trained, and evaluated using Python and Scikit-Learn in Google Colab.
 
 ---
 
-## 🚀 Objectives
+##  Objectives
 - Analyze how various factors influence student performance.
 - Build and train a Multiple Linear Regression model.
 - Evaluate model accuracy using **R²** and **RMSE** metrics.
@@ -16,7 +16,7 @@ The model is built, trained, and evaluated using Python and Scikit-Learn in Goog
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 | Category | Tools |
 |-----------|--------|
 | Programming | Python |
@@ -26,7 +26,7 @@ The model is built, trained, and evaluated using Python and Scikit-Learn in Goog
 
 ---
 
-## 🗂️ Dataset Description
+##  Dataset Description
 The dataset `Student_Performance.csv` contains the following columns:
 
 | Feature | Description |
@@ -40,7 +40,7 @@ The dataset `Student_Performance.csv` contains the following columns:
 
 ---
 
-## 🧮 Workflow
+##  Workflow
 1. **Import Libraries**  
    Load all required Python libraries.
 
@@ -73,7 +73,7 @@ The dataset `Student_Performance.csv` contains the following columns:
 
 ---
 
-## 📊 Model Performance (Example Results)
+##  Model Performance
 | Metric | Train | Test |
 |--------|--------|------|
 | R² Score | 0.98 | 0.98 |
@@ -83,15 +83,9 @@ The dataset `Student_Performance.csv` contains the following columns:
 
 ---
 
-## 🧩 Key Insights
+##  Key Insights
 - Study hours and previous scores show the highest positive correlation with performance.
 - Extracurricular activities also contribute moderately.
 - Sleep hours beyond optimal range may slightly reduce performance.
 
 ---
-
-## 🧠 Future Improvements
-- Implement feature scaling (StandardScaler).
-- Detect and handle outliers using IQR or robust regressors.
-- Compare with other models (Decision Tree, Random Forest, SVR).
-- Deploy as a web app using Streamlit or Flask.
