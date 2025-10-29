@@ -101,28 +101,6 @@ The task was converted into **binary classification**:
 
 ---
 
-## 🗂 Project Structure
-.
-├── data/
-│ ├── raw/ # Original dataset
-│ └── processed/ # Cleaned dataset
-├── notebooks/
-│ ├── 01_EDA.ipynb
-│ ├── 02_Preprocessing.ipynb
-│ ├── 03_RandomForest.ipynb
-│ └── 04_XGBoost.ipynb
-├── models/
-│ ├── rf_tuned.pkl
-│ └── xgb_tuned.pkl
-├── src/
-│ ├── data_preprocess.py
-│ └── model_utils.py
-├── README.md
-└── requirements.txt
-
-
----
-
 ## 👨‍💻 Author
 **Safwaan Siddiqui**  
 B.Tech CSE (AIML) | Manipal University Jaipur  
