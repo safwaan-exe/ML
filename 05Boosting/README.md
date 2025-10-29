@@ -64,3 +64,68 @@ The task was converted into **binary classification**:
 
 ### Tuned Random Forest
 
+## 🧾 Evaluation Outputs
+
+### Tuned Random Forest
+🎯 Train Accuracy: 100.0%
+🎯 Test Accuracy: 92.27%
+✅ Best Parameters: {'n_estimators': 500, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2', 'max_depth': 15}
+✅ Best Cross-Validation Accuracy: 93.41%
+
+
+### Tuned XGBoost
+🎯 Train Accuracy: 95.23%
+🎯 Test Accuracy: 91.36%
+✅ Best Parameters: {'subsample': 0.8, 'reg_lambda': 1, 'reg_alpha': 0.5, 'n_estimators': 100, 'max_depth': 5, 'learning_rate': 0.01, 'gamma': 0.5, 'colsample_bytree': 0.6}
+✅ Best Cross-Validation Accuracy: 93.98%
+
+
+---
+
+## ✅ Final Conclusion
+- **Best Performing Model:** Tuned **Random Forest**  
+  - Highest test accuracy: **92.27%**  
+  - Slightly better generalization on holdout data.  
+- **Alternative Choice:** Tuned **XGBoost**  
+  - Excellent cross-validation stability (**93.98%**).  
+  - Slightly lower test accuracy but more robust and less overfitting.
+
+---
+
+## 🚀 Future Improvements
+- Use **SMOTE / ADASYN** for imbalanced data handling.
+- Implement **LightGBM** or **CatBoost** for faster training.
+- Apply **SHAP / LIME** for model explainability.
+- Create a **Streamlit / Flask** web app for interactive stress prediction.
+- Deploy the final model with monitoring and versioning (MLOps pipeline).
+
+---
+
+## 🗂 Project Structure
+.
+├── data/
+│ ├── raw/ # Original dataset
+│ └── processed/ # Cleaned dataset
+├── notebooks/
+│ ├── 01_EDA.ipynb
+│ ├── 02_Preprocessing.ipynb
+│ ├── 03_RandomForest.ipynb
+│ └── 04_XGBoost.ipynb
+├── models/
+│ ├── rf_tuned.pkl
+│ └── xgb_tuned.pkl
+├── src/
+│ ├── data_preprocess.py
+│ └── model_utils.py
+├── README.md
+└── requirements.txt
+
+
+---
+
+## 👨‍💻 Author
+**Safwaan Siddiqui**  
+B.Tech CSE (AIML) | Manipal University Jaipur  
+GitHub: [@safwaan-exe](https://github.com/safwaan-exe)
+
+---
